@@ -1,6 +1,7 @@
 {
   "rewrites": [
-    { "source": "/invite", "destination": "/index.html" }
+    { "source": "/invite", "destination": "/index.html" },
+    { "source": "/card", "destination": "/index.html" }
   ],
   "headers": [
     {
