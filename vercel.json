@@ -1,11 +1,11 @@
 {
   "headers": [
     {
-      "source": "/og.jpg",
+      "source": "/(kavya-kamal.jpg|og.jpg|share.jpg)",
       "headers": [
         { "key": "Content-Type", "value": "image/jpeg" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Cache-Control", "value": "public, max-age=3600" }
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     }
   ]
