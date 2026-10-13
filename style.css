@@ -754,7 +754,7 @@ body.is-unlocked .hero-copy > h1:first-of-type {
   .hero { min-height: 95svh; }
   .intro { 
     font-size: 16px;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
   .intro br { display: none; }
   .hero h1 { font-size: 30px; }
