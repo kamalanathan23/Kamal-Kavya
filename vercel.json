@@ -1,9 +1,13 @@
 {
+  "rewrites": [
+    { "source": "/invite", "destination": "/index.html" }
+  ],
   "headers": [
     {
-      "source": "/(temple-invite.jpg|kavya-kamal.jpg|og.jpg|share.jpg)",
+      "source": "/temple-invite.jpg",
       "headers": [
         { "key": "Content-Type", "value": "image/jpeg" },
+        { "key": "Content-Disposition", "value": "inline" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
         { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
