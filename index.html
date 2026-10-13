@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kavya Nagashree & Kamalanathan — Wedding Invitation · 20 November 2026</title>
+  <meta name="description" content="We cordially invite you to witness the beginning of our forever.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+</head>
+<body>
+  <div class="floating-petals" id="floatingPetals" aria-hidden="true"></div>
+  <div class="butterfly-path" aria-hidden="true"><span class="butterfly-wings"><svg width="38" height="32" viewBox="0 0 64 52" xmlns="http://www.w3.org/2000/svg"><g><ellipse cx="32" cy="26" rx="1.6" ry="11" fill="#1f2937"/><circle cx="32" cy="14" r="2.2" fill="#1f2937"/><path d="M32 13C29 8 27 6 25 5M32 13C35 8 37 6 39 5" stroke="#1f2937" stroke-width="1" fill="none" stroke-linecap="round"/><path d="M30 22C10 10 2 22 6 32c4 10 18 6 24-2Z" fill="#3b82f6" opacity=".95"/><path d="M30 30C18 38 10 44 14 48c6 2 14-6 16-12Z" fill="#60a5fa" opacity=".95"/><path d="M34 22c20-12 28 0 24 10-4 10-18 6-24-2Z" fill="#3b82f6" opacity=".95"/><path d="M34 30c12 8 20 14 16 18-6 2-14-6-16-12Z" fill="#60a5fa" opacity=".95"/><circle cx="14" cy="26" r="1.6" fill="#fff" opacity=".85"/><circle cx="50" cy="26" r="1.6" fill="#fff" opacity=".85"/></g></svg></span></div>
+  <div class="gate" id="gate" aria-hidden="false">
+    <div class="petal petal-a">🌸</div><div class="petal petal-b">🌼</div><div class="petal petal-c">🌿</div><div class="petal petal-d">🌿</div>
+    <button class="envelope-button" id="openInvitation" aria-label="Open invitation">
+      <img src="assets/envelope-PE3Id_YU.png" alt="Wedding invitation envelope">
+      <span class="seal"><span>K &amp; K</span></span>
+    </button>
+    <div class="gate-copy">
+      <h2>You're Invited</h2>
+      <p>Tap the envelope to open your invitation</p>
+    </div>
+  </div>
+
+  <button class="audio-toggle" id="audioToggle" aria-label="Mute background music" aria-pressed="false">🔊</button>
+  <audio id="weddingAudio" loop preload="auto" playsinline src="assets/background.mp3"></audio>
+
+  <main id="invitation">
+    <section class="hero section-frame reveal">
+      <img class="hero-art" src="assets/wedding-hero-BBfn2Y6k.jpg" alt="Kavya Nagashree and Kamalanathan wedding illustration">
+      <div class="hero-copy">
+        <div class="ganesh-wrap"><img src="assets/ganesh-idol-TubyYjSJ.png" alt="Lord Ganesha"><p>‖ Shree Ganeshaya Namah ‖</p></div>
+        <p class="intro">We cordially invite you to witness the beginning of our forever<br>and celebrate the wedding ceremony of</p>
+        <h1>B Kavya Nagashree</h1><p class="parents">D/o Mr. J. Balram Singh<br>&amp; Mrs. M. B. Padmini</p>
+        <p class="with">with</p>
+        <h1>D Kamalanathan</h1><p class="parents">S/o Mr. S. Devarajan<br>&amp; Mrs. D. Uma</p>
+      </div>
+    </section>
+
+    <section class="date-section section-frame reveal" id="date">
+      <div class="scratch-card" id="scratchCard">
+        <div class="scratch-message"><p class="eyebrow">SAVE THE DATE</p><p class="date">20th November 2026</p></div>
+        <canvas id="scratchCanvas" aria-label="Scratch to reveal the date"></canvas>
+      </div>
+      <div class="countdown-wrap">
+        <div class="countdown" aria-label="Countdown to the wedding"><div><strong data-unit="days">00</strong><span>Days</span></div><div><strong data-unit="hours">00</strong><span>Hours</span></div><div><strong data-unit="minutes">00</strong><span>Minutes</span></div><div><strong data-unit="seconds">00</strong><span>Seconds</span></div></div>
+      </div>
+    </section>
+
+    <section class="events section-frame reveal" id="events"><div class="heading"><h2>Events Schedule</h2><span>❀</span></div><div class="event-list">
+      <article class="event-card" style="--bg:url('assets/bg-sangeet-new-CNNXHaSd.jpg')"><div class="event-copy"><img src="assets/reception.png" alt="Reception couple illustration"><h3>Reception</h3><p>A joyous evening of music, love, laughter and celebration</p><span class="divider">❀</span><dl><dt>Date</dt><dd>Thursday · November 19, 2026</dd><dt>Time</dt><dd>6:30 PM onwards</dd><dt>Venue</dt><dd>Tamilnadu Police Convention Centre, Thirumullaivoyal, Chennai</dd></dl></div></article>
+      <article class="event-card" style="--bg:url('assets/bg-sapthapadi-new-DwAlBfyG.jpg')"><div class="event-copy"><img src="assets/Muhurtham.png" alt="Muhurtam couple illustration"><h3>Muhurtam</h3><p>Auspicious beginnings, sacred vows and blessings for a lifetime of togetherness</p><span class="divider">❀</span><dl><dt>Date</dt><dd>Friday • November 20, 2026</dd><dt>Time</dt><dd>5:30 AM onwards</dd><dt>Venue</dt><dd>Tamilnadu Police Convention Centre, Thirumullaivoyal, Chennai</dd></dl></div></article>
+    </div></section>
+
+    <section class="message section-frame reveal">
+      <h2>Awaiting Your Noble Presence</h2>
+      <span class="divider">❀</span>
+      <p>Because meeting two souls requires twice the fun — and you!</p>
+      <div class="gallery-wrap">
+        <div id="gallery" class="photos-grid-container gallery">
+          <div class="main-photo img-box">
+            <a href="assets/image%20gallery/177A1098.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1098.jpg" alt="Kavya Nagashree and Kamalanathan"></a>
+          </div>
+          <div>
+            <div class="sub">
+              <div class="img-box"><a href="assets/image%20gallery/177A1183.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1183.jpg" alt="Kavya Nagashree and Kamalanathan"></a></div>
+              <div class="img-box"><a href="assets/image%20gallery/177A1271.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1271.jpg" alt="Kavya Nagashree and Kamalanathan"></a></div>
+              <div class="img-box"><a href="assets/image%20gallery/177A1355.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1355.jpg" alt="Kavya Nagashree and Kamalanathan"></a></div>
+              <div id="multi-link" class="img-box">
+                <a href="assets/image%20gallery/177A1403.jpg" class="glightbox" data-glightbox="type: image">
+                  <img src="assets/image%20gallery/177A1403.jpg" alt="Kavya Nagashree and Kamalanathan">
+                  <div class="transparent-box">
+                    <div class="caption">+5</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="more-img" class="extra-images-container hide-element">
+            <a href="assets/image%20gallery/177A1432.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1432.jpg" alt="Kavya Nagashree and Kamalanathan"></a>
+            <a href="assets/image%20gallery/177A1518.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1518.jpg" alt="Kavya Nagashree and Kamalanathan"></a>
+            <a href="assets/image%20gallery/177A1559.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1559.jpg" alt="Kavya Nagashree and Kamalanathan"></a>
+            <a href="assets/image%20gallery/177A1681.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1681.jpg" alt="Kavya Nagashree and Kamalanathan"></a>
+            <a href="assets/image%20gallery/177A1777.jpg" class="glightbox" data-glightbox="type: image"><img src="assets/image%20gallery/177A1777.jpg" alt="Kavya Nagashree and Kamalanathan"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="families section-frame reveal"><p class="eyebrow">WITH LOVE</p><h2>The Families</h2><span class="divider">❀</span><p class="eyebrow">AWAITING YOUR GRACIOUS PRESENCE</p><p>Mr. J. Balram Singh<br>&amp; Mrs. M. B. Padmini<br><br>Mr. S. Devarajan<br>&amp; Mrs. D. Uma</p></section>
+    <section class="venue section-frame reveal"><p class="eyebrow">VENUE</p><h2>Where We Celebrate</h2><span class="divider">❀</span><p>Tamilnadu Police Convention Centre, Thirumullaivoyal, Chennai</p><div class="map"><iframe title="Tamilnadu Police Convention Centre map" loading="lazy" src="https://www.google.com/maps?q=Tamilnadu%20Police%20Convention%20Centre%20Thirumullaivoyal%20Chennai&output=embed"></iframe></div><a class="directions" href="https://www.google.com/maps/dir/?api=1&destination=Tamilnadu+Police+Convention+Centre+Thirumullaivoyal+Chennai" target="_blank" rel="noreferrer">⌖ Get Directions</a></section>
+    <footer class="footer section-frame"><p>WITH LOVE</p><h3>Kavya Nagashree &amp; Kamalanathan</h3><div>💐</div><p>20th November 2026</p><p>#KAVYAKAMALANATHAN</p></footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
