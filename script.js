@@ -216,7 +216,7 @@ if (scratchCanvas && scratchCard) {
     context.fillStyle = gradient;
     context.fillRect(0, 0, rect.width, rect.height);
     context.fillStyle = 'rgba(255,255,255,.35)';
-    context.font = '600 14px Montserrat, sans-serif';
+    context.font = '600 14px Cinzel, serif';
     context.textAlign = 'center';
     context.textBaseline = 'middle';
     context.fillText('✦  SCRATCH TO REVEAL  ✦', rect.width / 2, rect.height / 2);
