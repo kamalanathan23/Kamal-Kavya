@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(kavya-kamal.jpg|og.jpg|share.jpg)",
+      "source": "/(temple-invite.jpg|kavya-kamal.jpg|og.jpg|share.jpg)",
       "headers": [
         { "key": "Content-Type", "value": "image/jpeg" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
