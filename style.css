@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Great+Vibes&display=swap');
 
 :root {
   --paper: #f7f2e6;
@@ -19,7 +19,7 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--paper);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   font-weight: 400;
   overflow-x: hidden;
@@ -150,7 +150,7 @@ body.is-unlocked .butterfly-path {
   border-radius: 50%;
   background: linear-gradient(135deg, #d5aa68, #9d6e3f);
   box-shadow: 0 10px 40px -10px rgba(120, 79, 38, .4);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cinzel', serif;
   font-size: 12px;
   color: #fff;
   animation: shimmer 3s ease-in-out infinite;
@@ -167,8 +167,7 @@ body.is-unlocked .butterfly-path {
 }
 .gate-copy h2 {
   margin: 0;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: 'Great Vibes', cursive;
   font-size: clamp(36px, 5vw, 60px);
   color: var(--sage);
   font-weight: 400;
@@ -282,8 +281,9 @@ body.is-unlocked main {
   margin: 0;
 }
 .hero h1 {
-  font: italic 600 clamp(40px, 7vw, 72px) / 1.1 'Playfair Display', serif;
+  font: clamp(72px, 11vw, 128px) / 1 'Great Vibes', cursive;
   color: var(--rose);
+  font-weight: 400;
   margin: 24px 0 0;
 }
 .parents {
@@ -293,8 +293,9 @@ body.is-unlocked main {
   margin: 10px 0;
 }
 .with {
-  font: italic 400 28px 'Playfair Display', serif;
+  font: 34px 'Great Vibes', cursive;
   color: var(--rose-deep);
+  font-style: italic;
   margin: 18px 0 0;
 }
 
@@ -349,13 +350,13 @@ body.is-unlocked .hero-copy > h1:first-of-type {
   background: #f7f2e6;
 }
 .eyebrow {
-  font: 14px 'Montserrat', sans-serif;
+  font: 14px 'Cinzel', serif;
   letter-spacing: 3px;
   margin: 0 0 8px;
   color: var(--sage);
 }
 .date {
-  font: italic 600 42px 'Playfair Display', serif;
+  font: 42px 'Great Vibes', cursive;
   margin: 0;
   color: var(--rose);
 }
@@ -422,7 +423,7 @@ body.is-unlocked .hero-copy > h1:first-of-type {
   display: flex;
   align-items: center;
   justify-content: center;
-  font: 32px 'Montserrat', sans-serif;
+  font: 32px 'Cinzel', serif;
   color: var(--deep);
 }
 .countdown span {
@@ -444,8 +445,9 @@ body.is-unlocked .hero-copy > h1:first-of-type {
 .message h2,
 .families h2,
 .venue h2 {
-  font: italic 600 clamp(36px, 5vw, 56px) 'Playfair Display', serif;
+  font: clamp(48px, 6vw, 64px) 'Great Vibes', cursive;
   color: #8b2f4d;
+  font-weight: 400;
   margin: 0;
 }
 .divider {
@@ -519,7 +521,7 @@ body.is-unlocked .hero-copy > h1:first-of-type {
 .event-list .event-card .event-copy h3 {
   grid-column: 2;
   grid-row: 1;
-  font: italic 600 42px 'Playfair Display', serif;
+  font: 46px 'Great Vibes', cursive;
   font-weight: 400;
   margin: 2px;
   color: #fffdf4;
@@ -549,7 +551,7 @@ body.is-unlocked .hero-copy > h1:first-of-type {
   font-size: 18px;
 }
 .event-list .event-card .event-copy dt {
-  font: 11px 'Montserrat', sans-serif;
+  font: 11px 'Cinzel', serif;
   letter-spacing: 1px;
   color: #f5d199;
   padding-top: 4px;
@@ -609,7 +611,7 @@ body.is-unlocked .hero-copy > h1:first-of-type {
   color: white;
   transition: transform 0.3s ease, opacity 0.3s ease;
   font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cinzel', serif;
 }
 .photos-grid-container .transparent-box {
   height: 100%;
@@ -706,7 +708,7 @@ body.is-unlocked .hero-copy > h1:first-of-type {
   background: linear-gradient(135deg, #d4a574, #b8855f);
   color: #fffdf4;
   text-decoration: none;
-  font: 13px 'Montserrat', sans-serif;
+  font: 13px 'Cinzel', serif;
   letter-spacing: 1px;
   box-shadow: 0 10px 40px -10px rgba(120, 79, 38, .4);
 }
@@ -719,11 +721,12 @@ body.is-unlocked .hero-copy > h1:first-of-type {
   border: 0;
 }
 .footer p {
-  font: 12px 'Montserrat', sans-serif;
+  font: 12px 'Cinzel', serif;
   letter-spacing: 3px;
 }
 .footer h3 {
-  font: italic 600 48px 'Playfair Display', serif;
+  font: 60px 'Great Vibes', cursive;
+  font-weight: 400;
   margin: 8px;
   color: #f5d199;
 }
